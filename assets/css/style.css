@@ -1,0 +1,177 @@
+:root {
+    --alto-cabezal: 10vh;
+    --color-principal: #ffff;
+    --color-secundario: #aaaa;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    font-family: 'Kanit', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.cabezal {
+    height: var(--alto-cabezal);
+    background: transparent;
+    background-size: cover;
+}
+
+
+.slider-principal {
+    height: calc(110vh - var(--alto-cabezal));
+    background: url("https://wallpapers.com/images/hd/kanye-west-ye-1920-x-1080-azgwku202yza2q1y.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+}
+
+/*---------------------------------*/
+/*--------------Canciones-----------------*/
+.margenizq{
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+.card-body{
+    color: white;
+    text-decoration: none;
+}
+
+/*-----------letras-----------*/
+.card-link{
+    color:white;
+    text-decoration: none;
+}
+
+
+/*------------querry de sobre mi----------*/
+@media (max-width: 767px) {
+    .responsi{
+        font-size: 12px;
+
+    }
+
+}
+/*------------footer-------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+footer{
+    background: white;
+    margin-top: 100px;
+}
+.footercontainer{
+    width: 100%;
+    padding: 40px 30px 20px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.footernav ul li{
+    list-style: none;
+}
+.footernav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerend{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footerend p{
+    color: black;
+}
+
+/*----------Definiciones--------*/
+.container-fluid {
+    margin: auto;
+    width: 100%;
+}
+.container {
+    margin: auto;
+    width: 1140px;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+/*-------------------------------*/
